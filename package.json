@@ -1,0 +1,32 @@
+{
+  "name": "blunble-server",
+  "version": "0.0.1",
+  "description": "Server for Blunble",
+  "author": "Jérémie Zarca <jeremie.zarca@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.1.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
